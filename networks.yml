@@ -1,11 +1,11 @@
 - name: Create Custom Network
   hosts: localhost
   connection: local
-  gather_facts: no
+  gather_facts: yes
 
   tasks:
    - name: Create networks
-    gce_net:
+     gce_net:
         name: awx-custom
         mode: custom
         subnet_name: "awx-east"
