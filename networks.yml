@@ -5,7 +5,8 @@
     subnet_name: "awx-east"
     subnet_region: us-east1
     ipv4_range: '10.240.16.0/24'
-    state: "present
+    state: "present"
+
   gce_net:
     name: awx-custom
     subnet_name: "awx-west"
