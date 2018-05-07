@@ -11,5 +11,5 @@
     name: awx-custom
     subnet_name: "awx-west"
     subnet_region: us-west1
-    ipv4_tange: '10.240.14.0/24"
+    ipv4_tange: '10.240.14.0/24'
     state: "present"
