@@ -14,6 +14,7 @@
         state: "present"
 
    - name: Create second subnet
+     gce_net:   
         name: awx-custom
         subnet_name: "awx-west"
         subnet_region: us-west1
