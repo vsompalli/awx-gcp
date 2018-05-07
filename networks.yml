@@ -1,0 +1,14 @@
+- name: Create Custom Network
+  gce_net:
+    name: awx-custom
+    mode: custom
+    subnet_name: "awx-east"
+    subnet_region: us-east1
+    ipv4_range: '10.240.16.0/24'
+    state: "present
+  gce_net:
+    name: awx-custom
+    subnet_name: "awx-west"
+    subnet_region: us-west1
+    ipv4_tange: '10.240.14.0/24"
+    state: "present""
