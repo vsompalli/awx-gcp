@@ -4,7 +4,7 @@
   gather_facts: no
 
   tasks:
-   - name : Create networks
+   - name: Create networks
     gce_net:
         name: awx-custom
         mode: custom
